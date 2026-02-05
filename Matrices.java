@@ -44,33 +44,33 @@ public class Matrices {
     }
 
     public static int[][] sumaMatriz(int[][] a, int[][] b) {
-        int[][] res = new int[a.length][a[0].length];
+        int[][] resultado = new int[a.length][a[0].length];
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
-                res[i][j] = a[i][j] + b[i][j];
+                resultado[i][j] = a[i][j] + b[i][j];
             }
         }
-        return res;
+        return resultado;
     }
 
     public static int[][] restaMatriz(int[][] a, int[][] b) {
-        int[][] res = new int[a.length][a[0].length];
+        int[][] resultado = new int[a.length][a[0].length];
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
-                res[i][j] = a[i][j] - b[i][j];
+                resultado[i][j] = a[i][j] - b[i][j];
             }
         }
-        return res;
+        return resultado;
     }
 
     public static int[][] multiplicacionPosiciones(int[][] a, int[][] b) {
-        int[][] res = new int[a.length][a[0].length];
+        int[][] resultado = new int[a.length][a[0].length];
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
-                res[i][j] = a[i][j] * b[i][j];
+                resultado[i][j] = a[i][j] * b[i][j];
             }
         }
-        return res;
+        return resultado;
     }
 
     public static void mostrarResultados(int[][] s, int[][] r, int[][] m) {
